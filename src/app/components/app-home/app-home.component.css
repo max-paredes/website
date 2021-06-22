@@ -1,0 +1,21 @@
+.title {
+  font-family: 'Satisfy', cursive !important;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.carousel-item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.banner-overlay {
+  padding: 70px 0;
+  background: rgba(0,0,0, .4);
+}
+
+
+#header-banner {
+  margin-bottom: 40px;
+  background: url('https://www.lapaz.bo/ciudadmaravilla/wp-content/uploads/2018/04/tourmiradores.jpg') center 0 no-repeat;
+}
