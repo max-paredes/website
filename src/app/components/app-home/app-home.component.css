@@ -11,11 +11,22 @@
 }
 .banner-overlay {
   padding: 70px 0;
-  background: rgba(0,0,0, .4);
+  background: rgba(0,0,0, .1);
 }
 
 
 #header-banner {
   margin-bottom: 40px;
   background: url('https://www.lapaz.bo/ciudadmaravilla/wp-content/uploads/2018/04/tourmiradores.jpg') center 0 no-repeat;
+}
+
+
+.page-title {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  line-height: 1.2;
+  
+  font-family: 'Impallari Type, Cyreal ', sans-serif;
+  text-align: center;
+color: white;
 }
