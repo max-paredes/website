@@ -1,28 +1,324 @@
 <div class="container text-light">
   <section class="my-5">
     <!--heading -->
-    <h2 class="font-weight-bold text-center my-5">PRODUCTOS TURISTICOS MAX PAREDES</h2>
+    <h2 class="font-weight-bold text-center my-5">ITINERARIOS MAX PAREDES</h2>
     <!--description -->
     <p class="text-center dark-grey-text mx-auto mb-5">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rem recusandae accusamus sit earum ipsam, obcaecati
-      esse minima similique, voluptate laudantium quod nemo molestiae omnis sequi eos! Iusto libero fugit natus atque
-      consequuntur, delectus repellendus ex omnis neque, sit sapiente.
+      Le ofrecemos los siguientes itinerarios los cuales recorren por lo mejor de la ciudad de La Paz la ciudad maravilla. Con este recorrido el turista se apartará de la principal ruta turística para entrar en los distintos miradores y lugares misteriosos de la ciudad de La Paz. 
     </p>
 
-    <div class="row my-5" *ngFor=" let post of posts">
+    <div class="row my-5">
       <div class="col-lg-5 col-xl-4">
         <div class="mb-lg-0 mb-4">
-          <img class="img-fluid" [src]="post.img" alt="Blog image">
+          <img class="img-fluid" src="https://i.ibb.co/bHCbxdL/lapaz.jpg" alt="Blog image">
         </div>
       </div>
 
       <div class="col-lg-7 col-xl-8">
         <!-- Post title -->
-        <h3 class="font-weight-bold mb-3"><strong>{{ post.title }}</strong></h3>
-        <p class="dark-grey-text"> {{ blogcontent }} </p>
+        <h3 class="font-weight-bold mb-3"><strong>ITINERARIO LA PAZ 360º</strong></h3>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">HORARIO</th>
+              <th scope="col">ACTIVIDADES</th>
+              <th scope="col">DESCRIPCIÓN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:00</td>
+              <td>ENCUENTRO</td>
+              <td>TELEFÉRICO ROJO ESTACIÓN 
+                CENTRAL
+                Se esperará máximo 10 min.
+                </td>
+            </tr>
+            <tr>
+              <td>8:10</td>
+              <td>PARTIDA AL MIRADOR
+                21 DE ENERO
+                </td>
+              <td>El bus se dirigirá hacia el
+                primer mirador
+                </td>
+            </tr>
+            <tr>
+              <td>8:20</td>
+              <td>LLEGADA AL 
+                MIRADOR
+                21 DE ENERO
+                </td>
+              <td>LOS TURISTAS TENDRÁN 25 MIN
+                PARA ESCUCHAR UNA 
+                EXPLICACIÓN
+                OBSERVAR Y TOMAR 
+                FOTOGRAFÍAS.
+                </td>
+            </tr>
+            <tr>
+              <td>8:45</td>
+              <td>PARTIDA AL MIRADOR
+                VILLA VICTORIA
+                </td>
+              <td>El bus que estará esperando
+                se dirigirá hacia el Segundo mirador
+                </td>
+            </tr>
+            <tr>
+              <td>8:55</td>
+              <td>LLEGADA AL
+                MIRADOR
+               VILLA VICTORIA
+               </td>
+              <td>LOS TURISTAS TENDRÁN 25 MIN
+                PARA ESCUCHAR UNA 
+                EXPLICACIÓN
+                OBSERVAR Y TOMAR 
+                FOTOGRAFÍAS.
+                </td>
+            </tr>
+            <tr>
+              <td>9:20</td>
+              <td>PARTIDA AL MIRADOR
+                MUNAYPATA
+                </td>
+              <td>El bus que estará esperando
+                se dirigirá hacia el tercer mirador
+                </td>
+            </tr>
+            <tr>
+              <td> 
+ 
+                9:30
+                </td>
+              <td>LLEGADA AL 
+                MIRADOR
+                MUNAYPATA
+                </td>
+              <td>LOS TURISTAS TENDRÁN 30 MIN
+                PARA ESCUCHAR UNA 
+                EXPLICACIÓN,
+                OBSERVAR, TOMAR FOTOGRAFÍAS
+                 Y RECORRER EL PARQUE Y EL 
+                MIRADOR
+                </td>
+            </tr>
+            <tr>
+              <td> 
+                10: 00
+                </td>
+              <td>PARTIDA AL MIRADOR
+                NACIONES UNIDAS
+                </td>
+              <td>El bus que estará esperando
+                se dirigirá hacia el cuarto mirador
+                </td>
+            </tr>
+            <tr>
+              <td>10:15</td>
+              <td> 
+                LLEGADA AL MIRADOR
+                NACIONES UNIDAS
+                </td>
+              <td>LOS TURISTAS TENDRAN 30 MIN
+                PARA ESCUCHAR UNA EXPLICACIÓN,
+                OBSERVAR, TOMAR FOTOGRAFÍAS Y
+                RECORRER EL PARQUE Y EL MIRADOR
+                </td>
+            </tr>
+            <tr>
+              <td>10:45</td>
+              <td>REFRIGERIO</td>
+              <td>SE DARÁ UN REFRIGERIO LIVIANO A
+                LOS TURISTAS (UN SÁNDWICH Y UN JUGO)
+                Y 15 MIN PARA CONSUMIRLO
+                </td>
+            </tr>
+            <tr>
+              <td>11:00</td>
+              <td>PARTIDA AL MIRADOR
+                ILLIMANI
+                </td>
+              <td>El bus que estará esperando
+                se dirigirá hacia el último mirador
+                </td>
+            </tr>
+            <tr>
+              <td>11:15</td>
+              <td> 
+                LLEGADA AL MIRADOR
+                ILLIMANI
+                </td>
+              <td>LOS TURISTAS TENDRAN 40 MIN
+                PARA ESCUCHAR UNA EXPLICACIÓN,
+                OBSERVAR, TOMAR FOTOGRAFÍAS
+                CON UN FONDO COMPLETO DEL ILLIMANI Y
+                LA CIUDAD DE 180 GRADOS y PRESENCIAR DE UN RITUAL TRADICIONAL
+                </td>
+            </tr>
+            <tr>
+              <td> 
+                12:00
+                </td>
+              <td> 
+                PARTIDA AL PUNTO FINAL
+                FIN DE LA RUTA
+                </td>
+              <td>El bus dejará a los turistas en el
+                Teleférico Rojo, Estación Jacha
+                Qhathu de El Alto
+                </td>
+            </tr>
+           
+          </tbody>
+        </table>
+        
+   
         <!-- Post data -->
-        <p class="text-muted">by <a>{{ post.by }}</a>, {{ post.on }}</p>
-        <a class="btn btn-primary text-white">Read more</a>
+        <p class="text-muted">por <a>Rocio Limachi Condori</a>, 20/06/2021</p>
+        <a class="btn btn-primary text-white">Reservar</a>
+      </div>
+    </div>
+
+    <div class="row my-5">
+      <div class="col-lg-5 col-xl-4">
+        <div class="mb-lg-0 mb-4">
+          <img class="img-fluid" src="https://i.ibb.co/18xzjJR/under.jpg" alt="Blog image">
+        </div>
+      </div>
+
+      <div class="col-lg-7 col-xl-8">
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3"><strong>ITINERARIO PURA PURA UNDER</strong></h3>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">HORARIO</th>
+              <th scope="col">ACTIVIDADES</th>
+              <th scope="col">DESCRIPCIÓN</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>8:00</td>
+              <td>ENCUENTRO</td>
+              <td>TELEFÉRICO ROJO ESTACIÓN 
+                CENTRAL
+                Se esperará máximo 10 min.
+                </td>
+            </tr>
+            <tr>
+              <td>8:10</td>
+              <td>PARTIDA HACIA EL
+                BOSQUECILLO
+               DE PURA PURA               
+                </td>
+              <td>El bus se dirigirá hacia el
+                Bosquecillo de Pura Pura                
+                </td>
+            </tr>
+            <tr>
+              <td>8:25</td>
+              <td>LLEGADA AL BOSQUECILLO
+                DE  PURA PURA
+                </td>
+              <td>LOS TURISTAS RECIBIRÁN UNA EXPLICACIÓN GENERAL ACERCA DE LOS TÚNELES Y EL BOSQUECILLO DE PURA PURA, TAMBIÉN RECOMENDACIONES DE SEGURIDAD Y SE LES DOTARÁ DE EQUIPAMIENTO NECESARIO.
+                </td>
+            </tr>
+            <tr>
+              <td>8:50</td>
+              <td>VISITA A LA CASA DE LOS
+                DUENDES (EX DEPÓSITO DE
+                CARBÓN DE ENFE)
+                
+                </td>
+              <td>LOS TURISTAS RECIBIRÁN UNA EXPLICACIÓN DE LA CASA DE LOS DUENDES, LEYENDA DE SALVIETTI Y SE ASIGNARÁ UN
+                TIEMPO PARA FOTOGRAFÍAS
+                
+                </td>
+            </tr>
+            <tr>
+              <td>9:25</td>
+              <td>  CAMINATA AL PRIMER
+                TÚNEL
+                
+               </td>
+              <td>CAMINATA SOBRE LAS RIELES DEL
+                FERROCARRIL HACIA EL INGRESO, EXPLICACIÒN Y FOTOGRAFÍAS
+                
+                </td>
+            </tr>
+            <tr>
+              <td>9:40</td>
+              <td>DOTACIÓN DE
+                EQUIPAMIENTO
+               
+                </td>
+              <td>SE DOTARÁ A CADA TURISTA DE UN CASCO UNA LINTERNA Y UN BASTÓN DE CAMINATA.
+                </td>
+            </tr>
+            <tr>
+              <td> 
+ 
+                9:55
+                </td>
+              <td>EXPLORACIÓN AL PRIMER
+                TÚNEL(SOBRE LA TIERRA)
+                
+                </td>
+              <td>SE INGRESARÁ AL TÚNEL CON LOS GUÍAS ASIGNADOS LOS CUALES DARÁN UNA PREVIA EXPLICACIÓN, ES PRIMORDIAL QUE EL GRUPO NO SE SEPARE
+                </td>
+            </tr>
+            <tr>
+              <td> 
+                10: 25
+                </td>
+              <td>INGRESO Y EXPLORACIÓN AL SEGUNDO TÚNEL(SUBTERRÁNEO)
+                </td>
+              <td>SE INGRESARÁ AL TÚNEL CON LOS GUÍAS ASIGNADOS, Y SE EXPLICARÁ ACERCA DE LA INFINIDAD DE BOLSAS NEGRAS PRESENTES EN ESTE TÚNEL
+                </td>
+            </tr>
+            <tr>
+              <td>10:55</td>
+              <td> 
+                INGRESO Y EXPLORACIÓN AL
+                TERCER
+                 TÚNEL(SUBTERRÁNEO)
+                
+                </td>
+              <td>ANTES DE INGRESAR AL TÚNEL SE FORMARÁN GRUPOS DE 5 CADA UNO CON UN GUÍA DEBIDO AL OXÍGENO, YA QUE ESTE ES EL MÁS LARGO, SE RECORRERÁ EL TÚNEL EN GRUPOS SEPARADOS SIN PÉRDIDA DE COMUNICACIÓN
+                </td>
+            </tr>
+            <tr>
+              <td>11:30</td>
+              <td>SALIDA DEL TERCER
+                TÚNEL (EN EL PARQUE PURA
+               PURA)
+               Y
+               REFRIGERIO
+               </td>
+              <td>SE REALIZARÁ UNA CONVIVENCIA DONDE SE RELATAN LEYENDAS Y EXPERIENCIAS RELACIONADAS Y CONCIENTIZACIÓN DE LA VALORACIÓN DEL PATRIMONIO DE ESTE BOSQUECILLO MIENTRAS SE COMPARTE UN REFRIGERIO
+                </td>
+            </tr>
+            <tr>
+              <td>12:00</td>
+              <td> 
+                FIN DE LA EXCURSIÓN
+                
+                </td>
+              <td>LA DESPEDIDA SERÁ FUERA DE LA PUERTA PRINCIPAL AL INGRESO DEL PARQUE PURA PURA
+                </td>
+            </tr>
+ 
+           
+          </tbody>
+        </table>
+        
+   
+        <!-- Post data -->
+        <p class="text-muted">por <a>Rocio Limachi Condori</a>, 20/06/2021</p>
+        <a class="btn btn-primary text-white">Reservar</a>
       </div>
     </div>
 

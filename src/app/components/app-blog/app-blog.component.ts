@@ -16,8 +16,8 @@ export class AppBlogComponent implements OnInit {
   sunt doloribus tempore fugiat quibusdam!`;
 
   posts: any[] = [
-    { title: 'PURA PURA UNDER', content: 'This is article one', by: 'jessica doe', on: '12/02/2017', img:'https://i.ibb.co/bHCbxdL/lapaz.jpg' },
-    { title: 'LA PAZ 360º', content: 'This is article Two', by: 'jhon smith', on: '02/07/2016' , img:'https://i.ibb.co/18xzjJR/under.jpg'}];
+    { title: 'LA PAZ 360º', content: 'This is article one', by: 'jessica doe', on: '12/02/2017', img:'https://i.ibb.co/bHCbxdL/lapaz.jpg' },
+    { title: 'PURA PURA UNDER', content: 'This is article Two', by: 'jhon smith', on: '02/07/2016' , img:'https://i.ibb.co/18xzjJR/under.jpg'}];
 
 
   ngOnInit() {
