@@ -13,11 +13,14 @@ import { AppContactComponent } from './components/app-contact/app-contact.compon
 import { AppFooterComponent } from './components/app-footer/app-footer.component';
 import { AppSlideComponent } from './components/app-slide/app-slide.component';
 import { AppArticlesComponent } from './components/app-articles/app-articles.component';
+import { AppRutasComponent } from './components/app-rutas/app-rutas.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: AppHomeComponent },
   { path: 'blog', component: AppBlogComponent },
   { path: 'contact', component: AppContactComponent },
+  { path: 'rutas', component: AppRutasComponent },
+
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];
 
@@ -30,7 +33,8 @@ const appRoutes: Routes = [
     AppContactComponent,
     AppFooterComponent,
     AppSlideComponent,
-    AppArticlesComponent
+    AppArticlesComponent,
+    AppRutasComponent
   ],
   imports: [
     BrowserModule,
