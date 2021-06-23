@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppNavComponent implements OnInit {
 
-  cimg1: any = 'https://raw.githubusercontent.com/biker-ajayu/website/gh-pages/assets/images/logoBiker.jpeg';
+  simg1: any = 'https://i.ibb.co/6JKCnRh/Whats-App-Image-2021-06-22-at-8-30-50-PM.jpg';
 
   constructor() { }
 
